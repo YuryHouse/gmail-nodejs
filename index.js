@@ -36,7 +36,7 @@ app.post('/sendMessage', async function (req, res) {
         html:
             `<b>The message from portfolio contact form: </b>
             <div>Name: ${name}</div>
-            <div>E-mail: ${name}</div>
+            <div>E-mail: ${email}</div>
             <div>Message: ${message}</div>`, // html body
     });
     res.send('Hey');
